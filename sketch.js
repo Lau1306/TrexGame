@@ -85,7 +85,7 @@ function draw(){
   //Impide que el trex se vaya hacia abajo
   trex.collide(invisibleGround);
   
-  text("Score: " + score, width-200, 50);
+  text("Score P1: " + score, width-200, 50);
    
   drawSprites();  
 
