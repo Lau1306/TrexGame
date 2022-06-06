@@ -167,7 +167,7 @@ function spawnClouds(){
     cloud.depth = trex.depth;
     trex.depth = trex.depth + 1;
     
-    cloud.lifetime = 200;
+    cloud.lifetime = 600;
     
     cloudsGroup.add(cloud);
   }
